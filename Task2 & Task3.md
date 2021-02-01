@@ -23,6 +23,13 @@
 
 1. Model explanation
 
+   - - why the model can be averaged? That's because three quality.
+       1. law of large numbers
+       2. tricks to cut edges——always go to edges that are less visited, which can balance this tree.
+       3. because the synchronization of distance and node number, the package goes to a better strategy spontaneously.
+       4. tester: we can know whether it is balanced by programming
+       5. even when the law is not so true, we can still try to average it manually by allocating ways according to the rate of node number.
+
 2. Problem Abstraction
    We try to simplify the problem by extracting a ``distance-sequence`` from the web and only focus on the sequence.
 
@@ -38,6 +45,6 @@
 4. Formulation
 
    We want to use the ``distance sequence`` calculate the value of ``vsimple``, using our model.
-   
+
 5. Optimization
 
